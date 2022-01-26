@@ -17,7 +17,14 @@ namespace WindowsFormsApplication_15
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonDVaikutis_Click(object sender, EventArgs e)
         {
             double m = 30; //mērogs
             int xc = pictureBox1.Width / 2;   // centra koordinātes
@@ -37,7 +44,7 @@ namespace WindowsFormsApplication_15
             {
                 try   // ja funkcija kādā punktā neeksistē 
                 {
-                    y = 1/Math.Sin(x);   // Funkcijas formula!!!
+                    y = x + 5;   // Funkcijas formula!!!
                     xe = (int)(xc + m * x);
                     ye = (int)(yc - m * y);
                     G.DrawEllipse(myPen, xe, ye, 1, 1);
@@ -47,8 +54,7 @@ namespace WindowsFormsApplication_15
             }
         }
 
-
-        private void button2_Click(object sender, EventArgs e)
+        private void ButtonDVaikutis2_Click(object sender, EventArgs e)
         {
             double m = 30; //mērogs
             int xc = pictureBox1.Width / 2;   // centra koordinātes
@@ -68,7 +74,7 @@ namespace WindowsFormsApplication_15
             {
                 try   // ja funkcija kādā punktā neeksistē 
                 {
-                    y = x * x; // Funkcijas formula!!!
+                    y = (x*x)+4;   // Funkcijas formula!!!
                     xe = (int)(xc + m * x);
                     ye = (int)(yc - m * y);
                     G.DrawEllipse(myPen, xe, ye, 1, 1);
