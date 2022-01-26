@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxMSmotrovs = new System.Windows.Forms.GroupBox();
+            this.ButtonMSmotrovs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBoxMSmotrovs.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // groupBoxMSmotrovs
+            // 
+            this.groupBoxMSmotrovs.Controls.Add(this.ButtonMSmotrovs);
+            this.groupBoxMSmotrovs.Location = new System.Drawing.Point(276, 31);
+            this.groupBoxMSmotrovs.Name = "groupBoxMSmotrovs";
+            this.groupBoxMSmotrovs.Size = new System.Drawing.Size(200, 100);
+            this.groupBoxMSmotrovs.TabIndex = 4;
+            this.groupBoxMSmotrovs.TabStop = false;
+            this.groupBoxMSmotrovs.Text = "Margus Smotrovs";
+            // 
+            // ButtonMSmotrovs
+            // 
+            this.ButtonMSmotrovs.Location = new System.Drawing.Point(22, 27);
+            this.ButtonMSmotrovs.Name = "ButtonMSmotrovs";
+            this.ButtonMSmotrovs.Size = new System.Drawing.Size(75, 23);
+            this.ButtonMSmotrovs.TabIndex = 0;
+            this.ButtonMSmotrovs.Text = "y=tg(x)";
+            this.ButtonMSmotrovs.UseVisualStyleBackColor = true;
+            this.ButtonMSmotrovs.Click += new System.EventHandler(this.ButtonMSmotrovs_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.groupBoxMSmotrovs);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBoxMSmotrovs.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +121,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxMSmotrovs;
+        private System.Windows.Forms.Button ButtonMSmotrovs;
     }
 }
 
