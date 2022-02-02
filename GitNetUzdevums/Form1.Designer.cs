@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxRSKnipse = new System.Windows.Forms.GroupBox();
+            this.buttonRSKnipse = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBoxRSKnipse.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // groupBoxRSKnipse
+            // 
+            this.groupBoxRSKnipse.Controls.Add(this.buttonRSKnipse);
+            this.groupBoxRSKnipse.Location = new System.Drawing.Point(12, 104);
+            this.groupBoxRSKnipse.Name = "groupBoxRSKnipse";
+            this.groupBoxRSKnipse.Size = new System.Drawing.Size(200, 55);
+            this.groupBoxRSKnipse.TabIndex = 4;
+            this.groupBoxRSKnipse.TabStop = false;
+            this.groupBoxRSKnipse.Text = "Rasma Sandra Knipše";
+            // 
+            // buttonRSKnipse
+            // 
+            this.buttonRSKnipse.Location = new System.Drawing.Point(6, 19);
+            this.buttonRSKnipse.Name = "buttonRSKnipse";
+            this.buttonRSKnipse.Size = new System.Drawing.Size(75, 23);
+            this.buttonRSKnipse.TabIndex = 0;
+            this.buttonRSKnipse.Text = "y = x^3";
+            this.buttonRSKnipse.UseVisualStyleBackColor = true;
+            this.buttonRSKnipse.Click += new System.EventHandler(this.buttonRSKnipse_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.groupBoxRSKnipse);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBoxRSKnipse.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +121,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxRSKnipse;
+        private System.Windows.Forms.Button buttonRSKnipse;
     }
 }
 
