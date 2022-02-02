@@ -84,7 +84,7 @@ namespace WindowsFormsApplication_15
             int xc = pictureBox1.Width / 2;   // centra koordinātes
             int yc = pictureBox1.Height / 2;
             int xe, ye;     // punktu "ekrāna" koordinātes
-            double x, y;   // punktu "matemātiskās" koordinātes
+            double x, y;   // punktu "matemātiskās" koordinātes 
             double step = 0.005;    // solis
             Graphics G = pictureBox1.CreateGraphics();
             G.Clear(System.Drawing.Color.White);
