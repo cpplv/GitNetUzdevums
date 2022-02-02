@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxRPuceta = new System.Windows.Forms.GroupBox();
+            this.buttonRPuceta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBoxRPuceta.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // groupBoxRPuceta
+            // 
+            this.groupBoxRPuceta.Controls.Add(this.buttonRPuceta);
+            this.groupBoxRPuceta.Location = new System.Drawing.Point(12, 289);
+            this.groupBoxRPuceta.Name = "groupBoxRPuceta";
+            this.groupBoxRPuceta.Size = new System.Drawing.Size(200, 100);
+            this.groupBoxRPuceta.TabIndex = 4;
+            this.groupBoxRPuceta.TabStop = false;
+            this.groupBoxRPuceta.Text = "Rolands Pučeta";
+            // 
+            // buttonRPuceta
+            // 
+            this.buttonRPuceta.Location = new System.Drawing.Point(7, 20);
+            this.buttonRPuceta.Name = "buttonRPuceta";
+            this.buttonRPuceta.Size = new System.Drawing.Size(75, 23);
+            this.buttonRPuceta.TabIndex = 0;
+            this.buttonRPuceta.Text = "y=cosx";
+            this.buttonRPuceta.UseVisualStyleBackColor = true;
+            this.buttonRPuceta.Click += new System.EventHandler(this.buttonRPuceta_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.groupBoxRPuceta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBoxRPuceta.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +121,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxRPuceta;
+        private System.Windows.Forms.Button buttonRPuceta;
     }
 }
 
