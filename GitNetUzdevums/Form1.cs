@@ -98,7 +98,7 @@ namespace WindowsFormsApplication_15
             {
                 try   // ja funkcija kādā punktā neeksistē 
                 {
-                    y = x * x *x; // Funkcijas formula!!!
+                    y = x * x * x; // Funkcijas formula!!!
                     xe = (int)(xc + m * x);
                     ye = (int)(yc - m * y);
                     G.DrawEllipse(myPen, xe, ye, 1, 1);
