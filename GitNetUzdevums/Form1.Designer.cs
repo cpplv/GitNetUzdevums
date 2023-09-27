@@ -33,8 +33,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBoxVBickovs = new System.Windows.Forms.GroupBox();
+            this.buttonVBickovs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBoxVBickovs.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -84,12 +86,22 @@
             // groupBoxVBickovs
             // 
             this.groupBoxVBickovs.AccessibleRole = System.Windows.Forms.AccessibleRole.Cursor;
+            this.groupBoxVBickovs.Controls.Add(this.buttonVBickovs);
             this.groupBoxVBickovs.Location = new System.Drawing.Point(18, 132);
             this.groupBoxVBickovs.Name = "groupBoxVBickovs";
             this.groupBoxVBickovs.Size = new System.Drawing.Size(200, 100);
             this.groupBoxVBickovs.TabIndex = 4;
             this.groupBoxVBickovs.TabStop = false;
             this.groupBoxVBickovs.Text = "Vladimirs Kirils Bickovs";
+            // 
+            // buttonVBickovs
+            // 
+            this.buttonVBickovs.Location = new System.Drawing.Point(9, 25);
+            this.buttonVBickovs.Name = "buttonVBickovs";
+            this.buttonVBickovs.Size = new System.Drawing.Size(75, 29);
+            this.buttonVBickovs.TabIndex = 0;
+            this.buttonVBickovs.Text = "y=2x^3+1";
+            this.buttonVBickovs.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -104,6 +116,7 @@
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBoxVBickovs.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -115,6 +128,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBoxVBickovs;
+        private System.Windows.Forms.Button buttonVBickovs;
     }
 }
 
