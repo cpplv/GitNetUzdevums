@@ -33,8 +33,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.GroupBoxNSmorigo = new System.Windows.Forms.GroupBox();
+            this.ButtonNSmorigo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.GroupBoxNSmorigo.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -83,12 +85,22 @@
             // 
             // GroupBoxNSmorigo
             // 
+            this.GroupBoxNSmorigo.Controls.Add(this.ButtonNSmorigo);
             this.GroupBoxNSmorigo.Location = new System.Drawing.Point(18, 143);
             this.GroupBoxNSmorigo.Name = "GroupBoxNSmorigo";
             this.GroupBoxNSmorigo.Size = new System.Drawing.Size(200, 100);
             this.GroupBoxNSmorigo.TabIndex = 4;
             this.GroupBoxNSmorigo.TabStop = false;
             this.GroupBoxNSmorigo.Text = "Nikita Smorigo";
+            // 
+            // ButtonNSmorigo
+            // 
+            this.ButtonNSmorigo.Location = new System.Drawing.Point(9, 43);
+            this.ButtonNSmorigo.Name = "ButtonNSmorigo";
+            this.ButtonNSmorigo.Size = new System.Drawing.Size(167, 51);
+            this.ButtonNSmorigo.TabIndex = 0;
+            this.ButtonNSmorigo.Text = "y=1/x";
+            this.ButtonNSmorigo.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -103,6 +115,7 @@
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.GroupBoxNSmorigo.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -114,6 +127,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox GroupBoxNSmorigo;
+        private System.Windows.Forms.Button ButtonNSmorigo;
     }
 }
 
