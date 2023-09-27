@@ -102,6 +102,7 @@
             this.buttonVBickovs.TabIndex = 0;
             this.buttonVBickovs.Text = "y=2x^3+1";
             this.buttonVBickovs.UseVisualStyleBackColor = true;
+            this.buttonVBickovs.Click += new System.EventHandler(this.buttonVBickovs_Click);
             // 
             // Form1
             // 
