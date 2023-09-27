@@ -98,7 +98,7 @@
             // 
             this.buttonVBickovs.Location = new System.Drawing.Point(9, 25);
             this.buttonVBickovs.Name = "buttonVBickovs";
-            this.buttonVBickovs.Size = new System.Drawing.Size(75, 29);
+            this.buttonVBickovs.Size = new System.Drawing.Size(112, 29);
             this.buttonVBickovs.TabIndex = 0;
             this.buttonVBickovs.Text = "y=2x^3+1";
             this.buttonVBickovs.UseVisualStyleBackColor = true;
