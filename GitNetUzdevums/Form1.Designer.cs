@@ -41,17 +41,19 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(594, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(792, 26);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(397, 368);
+            this.pictureBox1.Size = new System.Drawing.Size(529, 453);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(119, 19);
+            this.button1.Location = new System.Drawing.Point(159, 23);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 1;
             this.button1.Text = "y=sinx";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(6, 19);
+            this.button2.Location = new System.Drawing.Point(8, 23);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 2;
             this.button2.Text = "y=x*x";
             this.button2.UseVisualStyleBackColor = true;
@@ -71,9 +74,11 @@
             // 
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 21);
+            this.groupBox1.Location = new System.Drawing.Point(16, 26);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 53);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(267, 65);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
@@ -81,18 +86,21 @@
             // GroupBoxRLeizans
             // 
             this.GroupBoxRLeizans.Controls.Add(this.ButtonRLeizans);
-            this.GroupBoxRLeizans.Location = new System.Drawing.Point(267, 21);
+            this.GroupBoxRLeizans.Location = new System.Drawing.Point(356, 26);
+            this.GroupBoxRLeizans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GroupBoxRLeizans.Name = "GroupBoxRLeizans";
-            this.GroupBoxRLeizans.Size = new System.Drawing.Size(291, 63);
+            this.GroupBoxRLeizans.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBoxRLeizans.Size = new System.Drawing.Size(388, 171);
             this.GroupBoxRLeizans.TabIndex = 4;
             this.GroupBoxRLeizans.TabStop = false;
             this.GroupBoxRLeizans.Text = "RobertsLeizāns";
             // 
             // ButtonRLeizans
             // 
-            this.ButtonRLeizans.Location = new System.Drawing.Point(19, 30);
+            this.ButtonRLeizans.Location = new System.Drawing.Point(25, 37);
+            this.ButtonRLeizans.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ButtonRLeizans.Name = "ButtonRLeizans";
-            this.ButtonRLeizans.Size = new System.Drawing.Size(119, 23);
+            this.ButtonRLeizans.Size = new System.Drawing.Size(159, 28);
             this.ButtonRLeizans.TabIndex = 0;
             this.ButtonRLeizans.Text = "y=2x";
             this.ButtonRLeizans.UseVisualStyleBackColor = true;
@@ -100,12 +108,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.ClientSize = new System.Drawing.Size(1355, 511);
             this.Controls.Add(this.GroupBoxRLeizans);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
