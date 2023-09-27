@@ -81,9 +81,9 @@
             // GroupBoxRKarklins
             // 
             this.GroupBoxRKarklins.Controls.Add(this.ButtonRKarklins);
-            this.GroupBoxRKarklins.Location = new System.Drawing.Point(18, 99);
+            this.GroupBoxRKarklins.Location = new System.Drawing.Point(12, 101);
             this.GroupBoxRKarklins.Name = "GroupBoxRKarklins";
-            this.GroupBoxRKarklins.Size = new System.Drawing.Size(315, 201);
+            this.GroupBoxRKarklins.Size = new System.Drawing.Size(200, 74);
             this.GroupBoxRKarklins.TabIndex = 4;
             this.GroupBoxRKarklins.TabStop = false;
             this.GroupBoxRKarklins.Text = "Reinis Karklins";
@@ -94,8 +94,9 @@
             this.ButtonRKarklins.Name = "ButtonRKarklins";
             this.ButtonRKarklins.Size = new System.Drawing.Size(75, 23);
             this.ButtonRKarklins.TabIndex = 0;
-            this.ButtonRKarklins.Text = "x * x * x";
+            this.ButtonRKarklins.Text = "y = x * x * x";
             this.ButtonRKarklins.UseVisualStyleBackColor = true;
+            this.ButtonRKarklins.Click += new System.EventHandler(this.ButtonRKarklins_Click);
             // 
             // Form1
             // 
